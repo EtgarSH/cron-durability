@@ -5,9 +5,7 @@
   There is a known problem with this module - the jobs are not durable.<br />
   When you register a job and shut-down your system, the job will just be wiped from the RAM.
 </p>
-<p>
-  This is why I've created `cron-durability`, a library that defends your jobs from a system shutdown.
-</p>
+This is why I've created `cron-durability`, a library that defends your jobs from a system shutdown.
 
 ## Using
 run `npm install cron-durability` on your public directory.
