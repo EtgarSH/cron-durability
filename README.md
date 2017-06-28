@@ -1,10 +1,9 @@
 # cron-durability
 ## Description
-<p>
-  Have you ever try using crone in Node?<br />
-  There is a known problem with this module - the jobs are not durable.<br />
-  When you register a job and shut-down your system, the job will just be wiped from the RAM.
-</p>
+Have you ever try using crone in Node?<br />
+There is a known problem with this module - the jobs are not durable.<br />
+When you register a job and shut-down your system, the job will just be wiped from the RAM.
+
 This is why I've created `cron-durability`, a library that defends your jobs from a system shutdown.
 
 ## Using
