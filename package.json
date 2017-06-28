@@ -1,6 +1,6 @@
 {
   "name": "cron-durability",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use this package in order to make Durable Cron Jobs - Don't lose you cron jobs anymore when you shut-down your server!",
   "main": "lib/index.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "cron": "^1.2.1",
+    "json-stringify-safe": "^5.0.1",
     "lodash": "^4.17.4",
     "uuid": "^3.1.0"
   }
