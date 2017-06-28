@@ -21,7 +21,7 @@ oneMonthFromNow.setDate(oneMonthFromNow.getDate() + 30);
 
 var job = new Job(oneMonthFromNow, () => {
   console.log("Wow!!! It has been a month since you've created me!");
-});
+}, "Asia/Tel_Aviv");
 module.global.jobsManager.registerJob(job);
 ```
 
