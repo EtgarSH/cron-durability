@@ -1,4 +1,14 @@
 # cron-durability
+## Description
+<p>
+  Have you ever try using crone in Node?<br />
+  There is a known problem with this module - the jobs are not durable.<br />
+  When you register a job and shut-down your system, the job will just be wiped from the RAM.
+</p>
+<p>
+  This is why I've created `cron-durability`, a library that defends your jobs from a system shutdown.
+</p>
+
 ## Using
 run `npm install cron-durability` on your public directory.
 
@@ -10,7 +20,7 @@ module.global.jobsManager = CronManager('myJobsDatabase');
 jobsManager.onServerStart();
 ```
 
-Then, you can use the manager whenever you want. <br />
+Then, you can use the manager whenever you want.<br />
 Let's create a job for example:
 
 ```javascript
