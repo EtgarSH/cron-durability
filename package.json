@@ -4,7 +4,7 @@
   "description": "Use this package in order to make Durable Cron Jobs - Don't lose you cron jobs anymore when you shut-down your server!",
   "main": "lib/index.js",
   "scripts": {
-    "start": "node lib/index.js",
+    "start": "node lib/example.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Etgar Shmueli",
